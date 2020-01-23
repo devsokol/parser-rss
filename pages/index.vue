@@ -1,16 +1,22 @@
 <template>
   <section class="container">
-    <h2>Hello world</h2>
+    <h2 class="test">Hello world</h2>
+    <h2>
+        <nuxt-link to="about">about</nuxt-link>
+    </h2>
   </section>
 </template>
 
 <script>
-// import AppLogo from '~/components/AppLogo.vue'
 
 export default {
+    data() {
+        return {
+
+        }
+    }
 }
 </script>
 
-<style>
-</style>
+<style src="~/assets/css/index.scss" lang="scss" scoped></style>
 
